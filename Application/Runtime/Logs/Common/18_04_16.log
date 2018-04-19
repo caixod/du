@@ -1,0 +1,30 @@
+[ 2018-04-16T09:33:36+08:00 ] 127.0.0.1 /index.php/lib/jquery/1.9.1/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003598s ]
+ERR: 无法加载模块:Lib
+
+[ 2018-04-16T09:33:37+08:00 ] 127.0.0.1 /index.php/static/h-ui/js/H-ui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000527s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004197s ]
+ERR: 无法加载模块:Static
+
+[ 2018-04-16T12:55:18+08:00 ] 127.0.0.1 /index.php/Uploads/2018-04-16/5ad41f6d015b0.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000630s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004983s ]
+ERR: 无法加载模块:Uploads
+
+[ 2018-04-16T13:06:18+08:00 ] 127.0.0.1 /index.php/Uploads/2018-04-16/5ad41f6d015b0.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000686s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005499s ]
+ERR: 无法加载模块:Uploads
+
+[ 2018-04-16T13:06:59+08:00 ] 127.0.0.1 /index.php/2018-04-16/5ad41f6d015b0.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005646s ]
+ERR: 无法加载模块:2018-04-16
+

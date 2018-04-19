@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://115.29.201.85:6811/member/index.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+		<title>Download下载页</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">	
+		<script type="text/javascript" src="__PUBLIC__/layer/2.1/layer.js"></script>
+<script type="text/javascript" src="__PUBLIC__/laypage/1.2/laypage.js"></script>
+		<link rel="stylesheet" href="__PUBLIC__/download/bootstrap.css">
+		<link rel="stylesheet" href="__PUBLIC__/download/bootstrap-theme.css">
+		<link rel="stylesheet" href="__PUBLIC__/download/dow.css">
+	</head>
+	<body>
+		<div class="container-fluid cp">
+			<div class="container">
+   		<div class="tcd">
+        <script type="text/javascript">
+   //         	var now=(new Date()).getHours();
+			// if(now>0&&now<=6){
+			// 	document.write("午夜好，");
+			// }else if(now>6&&now<=11){
+			// 	document.write("早上好，");
+			// }else if(now>11&&now<=14){
+			// 	document.write("中午好，");
+			// }else if(now>14&&now<=18){
+			// 	document.write("下午好，");
+			// }else{
+			// 	document.write("晚上好，");
+			// }
+	    </script>
+	    <?php if ($_SESSION['name']) { ?>
+   	   		<?php echo $_SESSION['name']; ?> </a> 
+   	   		<a href="{:U('home/login/quit')}">[{$Think.lang.tt}]</a> 
+	    <?php }else{ ?>
+			<a href="{:U('home/login/index')}">[{$Think.lang.login}]</a>   <a href="{:U('home/register/index')}">[{$Think.lang.register}]</a>
+	    <?php	} ?>
+
+   	    </div>
+		</div>
+		</div>
+	
+		<div class="container-fluid">
+			<div class="container" style="padding-left: 0px;padding-right: 0px;">
+				<div class="col-xs-7 col-sm-7 col-lg-7 col-md-7 bimg">
+					<img src="<?php echo $upload['zhutu'] ?><?php  ?>" width="100%">
+				</div>
+				<div class="col-xs-5 col-sm-5 col-lg-5 col-md-5 bibc">
+
+					<a class="btn btn-success bibcd" href="<?php echo $upload['jc']; ?>"> 》{$Think.lang.jc} </a>
+					
+					<a class="btn btn-warning bibcd" href="{:U('home/download/xx')}"> 》{$Think.lang.xx} </a>
+					
+					<a class="btn btn-danger bibcd " href="<?php echo $upload['rj']; ?>"> 》{$Think.lang.rj} </a>
+					
+				<h3 class="bph">{$Think.lang.d1}</h3>	
+				<p class="bpp">{$Think.lang.d2}</p>
+				</div>
+			</div>
+			<div class="container cli">
+				<div class="row clir">
+					<ul class="lidd">
+<!-- 					<?php foreach ($list as $k => $v) { ?>
+						<li><a href="{:U('home/download/page',array('id'=>$v['id']))}"><?php echo $v['title']; ?></a></li>
+					<?php } ?> -->
+						
+						<li><a href="{:U('home/download/page')}">{$Think.lang.bt1} </a></li>
+						<li><a href="{:U('home/download/page')}">{$Think.lang.bt2} </a></li>
+						<li><a href="{:U('home/download/page')}">{$Think.lang.bt3} </a></li>
+						<li><a href="{:U('home/download/page')}">{$Think.lang.bt4} </a></li>
+						<li><a href="{:U('home/download/page')}">{$Think.lang.bt5} </a></li>
+						<li><a href="{:U('home/download/page')}">{$Think.lang.bt6} </a></li>
+						<li><a href="{:U('home/download/page')}">{$Think.lang.bt7} </a></li>																				
+					</ul>
+				</div>
+			</div>
+		</div>
+  <footer class="footer" style="width:100%;height:60px;background:#000;margin-top:15px;">
+    <div class="container" style="margin: 0 auto;overflow: hidden;padding-top:25px;font-size:14px;">
+      <div class="row">
+        <div style="width:300px;float:left;color:#fff;">
+          <p style="font-weight:100">© 2018 maxwin668.com. All Rights Reserved</p>
+        </div>
+        <div style="float:right;color:#fff;">
+          <a href="{:U('home/login/index')}" target="_self" style="color: #a2a2a2;text-decoration: none;font-family: 微软雅黑;">{$Think.lang.fh}</a>
+        </div>
+      </div>
+    </div>
+  </footer>		
+	
+</body></html>

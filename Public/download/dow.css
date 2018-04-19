@@ -1,0 +1,27 @@
+.bimg{
+	    overflow: hidden;
+}
+.cp{background: #000000;height: 40px;margin-bottom: 10px;}
+.bibc{margin: 0 auto;text-align: center;padding-top: 5%;}
+.bibcd{margin-right: 15px;}
+.bph{font-weight: 700;font-family: "microsoft yahei";font-size: 25px;padding-bottom: 15px;padding-top: 20px;}
+.bpp{text-align: justify;font-family: "microsoft yahei";font-size: 17px;font-weight: 700;
+line-height: 25px;text-indent: 2em;}
+.cli {padding-left: 0px;padding-right: 0px;margin-top: 15px;}
+.lidd{    padding-left: 30px;
+    padding-right: 30px;}
+.cli li{list-style: none;
+    border-bottom: 1px solid #656565;
+    line-height: 40px;
+    font-weight: 700;
+    color: #424242;}
+.cli b{float: right;}
+.clir{    border-left: 1px dashed #5a5a5a;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-top: 1px dashed #5a5a5a;
+    border-right: 1px dashed #5a5a5a;}
+.tcd{padding-top: 10px;text-decoration: none;color: #FFF;float: right;}   
+.tcd a{color: #fff;text-decoration: none;} 
+.lidd a{color: #000;
+    text-decoration: none;}

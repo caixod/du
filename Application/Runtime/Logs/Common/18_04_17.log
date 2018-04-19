@@ -1,0 +1,18 @@
+[ 2018-04-17T14:45:28+08:00 ] 127.0.0.1 /index.php/index.php/home/download/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002346s ]
+ERR: 无法加载模块:Index.php
+
+[ 2018-04-17T14:45:36+08:00 ] 127.0.0.1 /index.php/index.php/home/download/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002497s ]
+ERR: 无法加载模块:Index.php
+
+[ 2018-04-17T14:45:57+08:00 ] 127.0.0.1 /index.php/index.php/home/download/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000525s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004574s ]
+ERR: 无法加载模块:Index.php
+
